@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 8677495157594853731, guid: 0adf4e257f753456a91a98de6302fd93, type: 3}
-  spawnRate: 2
+  spawnRate: 2.5
   heightOffset: 10
 --- !u!4 &254963898
 Transform:
@@ -701,10 +701,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -790,7 +790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 1194427731}
-  flapStrength: 7
+  flapStrength: 20
   logic: {fileID: 0}
   birdIsAlive: 1
 --- !u!58 &1194427735
